@@ -60,7 +60,7 @@ class RenderBoxObject extends RenderBox with RenderObjectWithChildMixin<RenderBo
     markNeedsLayout();
   }
 
-  set decoration(BoxDecoration? value) {
+  set decoration(final BoxDecoration? value) {
     _decoration = value;
     markNeedsPaint();
   }
